@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output (standalone/ is kept on purpose)
+dist/
+
+# Environment files (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+
+# Editors
+.vscode/
+.idea/
