@@ -66,7 +66,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173. The page refreshes when you save a file.
+Open `http://localhost:5173`. The page refreshes when you save a file.
 
 ### Environment variables
 
@@ -83,9 +83,9 @@ Only use the publishable (anon) key. Never put a service role key in this projec
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | Starts the development server at http://localhost:5173 |
+| `npm run dev` | Starts the development server at `http://localhost:5173` |
 | `npm run build` | Creates the production build in `dist/` (used by Netlify) |
-| `npm run preview` | Serves the production build locally at http://localhost:4173 |
+| `npm run preview` | Serves the production build locally at `http://localhost:4173` |
 | `npm run build:standalone` | Rebuilds the ready-to-open `index.html` in the project root |
 
 ## Opening the app without a server
